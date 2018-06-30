@@ -30,15 +30,15 @@ String s ="The Java Programming           ";
 		System.out.println(s.charAt(5));
 		
 		
-		//Concat
+		//Concat appends the string
 		System.out.println(s.concat(" Test"));
 		
 		System.out.println(s);
 		
-		//replace
+		//replace the source string with destination string
 		System.out.println(s.replace("The", "the"));
 		
-		//split
+		//split returns String array based on delimiter passed
 		System.out.println(s.split(" ")[0]+s.split(" ")[1]+s.split(" ")[2]);
 		
 		
