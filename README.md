@@ -38,6 +38,23 @@ String s ="The Java Programming           ";
 		//replace the source string with destination string
 		System.out.println(s.replace("The", "the"));
 		
+		//isEmpty() checks String is empty or not
+		
+		//char[] toCharArray(): Converts the string to a character array.
+		
+		//convert string to int
+		
+		
+		String str3="1234";
+                int num3 = Integer.parseInt(str3);
+		
+		//convert int to string
+		int ivar = 111;
+                String str = String.valueOf(ivar);
+		
+		
+		
+		
 		//split returns String array based on delimiter passed
 		System.out.println(s.split(" ")[0]+s.split(" ")[1]+s.split(" ")[2]);
 		
